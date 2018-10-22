@@ -1,0 +1,57 @@
+---
+#-----------------------------#
+
+         คุณสามารถใช้
+         You can use
+
+#{name} - ชื่อในเกม (name in game)
+#{group} - ยศ (group) *You must have plugin PurePerms*
+#{faction} - แคลน (factions) *You must have plugin FactionsPro*
+#{money} - เงิน (money) *You must have plugin EconomyAPI*
+#{gm} - เกมโหมด (gamemode)
+#{ip} - ip ของผู้เล่น (ip address)
+#{online} - จำนวนที่ออนไลน์ (online)
+#{max_online} - max ออนไลน์ (max online)
+#{hp} - สถานะสุขภาพ (health)
+#{maxhp} - max สุขภาพ (max health)
+#{x}/{y}/{z} - พิกัด (position xyz)
+#{level} - ชื่อโลก (world name)
+#{time} - เวลา (time) *You must set timezone in php.ini*
+#{id}:{ids} - ID item (id item)
+#{item} - ชื่อ item (name item)
+#{tps} - TPS เซิร์ฟเวอร์ (current tps)
+#{usage} - USAGE เซิร์ฟเวอร์ (server usage)
+#{tag} - ชื่อบนหัว (name tag)
+#{kills} - จำนวนการฆ่าทั้งหมด (kills) *You must have plugin KillChat*
+#{deaths} - ตายรวม (deaths) *You must have plugin KillChat*
+#{ping} - แสดงปิงในเซิฟ (ping)
+
+#-----------------------------#
+
+title:
+  - "§l§eชื่อเซิร์ฟ"
+  - "§l§§bชื่อเซิร์ฟ"
+  - "§l§aชื่อเซิร์ฟ"
+  - "§l§dชื่อเซิร์ฟ"
+
+line:
+  - " Line 1"
+  - " Line 2"
+  - " Line 3"
+  - " Line 4"
+  - " Line 5"
+  - " Line 6"
+  - " Line 7"
+  - " Line 8"
+  - " Line 9"
+  - " Line 10"
+  - " Line 11"
+  - " Line 12"
+  - " Line 13"
+  - " Line 14"
+  - " Line 15"
+
+#ให้อัพเดตข้อความทุกๆกี่ tick
+#Keep updating every few ticks.
+update-interval: 20
+...
