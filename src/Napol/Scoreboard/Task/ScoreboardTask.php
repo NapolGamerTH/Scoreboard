@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace NapolGamerTH\Scoreboard\Task;
+namespace Napol\Scoreboard\Task;
 
 use pocketmine\scheduler\Task;
-use NapolGamerTH\Scoreboard\Scoreboard;
+use Napol\Scoreboard\Scoreboard;
 
 class ScoreboardTask extends Task {
 
