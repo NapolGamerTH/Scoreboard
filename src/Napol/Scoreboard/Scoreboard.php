@@ -15,16 +15,16 @@ use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
 
 //Task Scoreboard
-use NapolGamerTH\Scoreboard\Task\ScoreboardTask;
+use Napol\Scoreboard\Task\ScoreboardTask;
 
 class Scoreboard extends PluginBase implements Listener{
 
 	private static $instance;
 	private $scoreboards = [];
   
-	public function onLoad(): void {
-		self::$instance = $this;
-	}
+  public function onLoad(): void {
+    self::$instance = $this;
+  }
   
   public function onEnable(): void {
     $this->saveResource("config.yml");
