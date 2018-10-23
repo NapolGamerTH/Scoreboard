@@ -1,6 +1,6 @@
 ...
 name: Scoreboard
-main: NapolGamerTH\Scoreboard
+main: Napol\Scoreboard\Scoreboard
 api: 4.0.0
 version: 1.0
 description: This scoreboard make by NapolGamer TH
