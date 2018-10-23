@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace NapolGamerTH\Scoreboard;
+namespace Napol\Scoreboard;
 
 use pocketmine\event\player\PlayerQuitEvent;
 use pocketmine\network\mcpe\protocol\RemoveObjectivePacket;
