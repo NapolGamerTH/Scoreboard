@@ -14,13 +14,13 @@ use pocketmine\Server;
 use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
 
-//Task Scoreboard
+#Task Scoreboard
 use Napol\Scoreboard\Task\ScoreboardTask;
 
 class Scoreboard extends PluginBase implements Listener{
 
-	private static $instance;
-	private $scoreboards = [];
+  private static $instance;
+  private $scoreboards = [];
   
   public function onLoad(): void {
     self::$instance = $this;
@@ -28,7 +28,7 @@ class Scoreboard extends PluginBase implements Listener{
   
   public function onEnable(): void {
     $this->saveResource("config.yml");
-		$this->getScheduler()->scheduleRepeatingTask(new ScoreboardTask($this, 0), (int)$this->getConfig()->get("update-interval"));
+    $this->getScheduler()->scheduleRepeatingTask(new ScoreboardTask($this, 0), (int)$this->getConfig()->get("update-interval"));
     $this->getLogger()->info("§eScoreboard §ahas Enabled!");
     $this->getLogger()->info("§bAuthor§f: §aNapolGamer TH");
   }
