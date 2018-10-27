@@ -6,7 +6,7 @@
 ## How to install!?
  - You can get the `.phar` file by clicking [here](https://poggit.pmmp.io/ci/NapolGamerTH/Scoreboards).
  - Add the `.phar` file to your `/plugins` directory.
- - You can edit the *Scoreboard* in config.yml (/plugins/Scoreboard) & restart your server.
+ - You can edit the *Scoreboard* in config.yml `/plugins/Scoreboard` & restart your server.
  ***Note: This plugin only works on MCPE 1.7 and above.***
  
  ## Usage
