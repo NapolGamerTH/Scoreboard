@@ -23,13 +23,13 @@
 #{ping} - แสดงปิงในเซิฟ (ping)
 
 #-----------------------------#
-
+#Your name server :)
 title:
   - "§l§eName Server"
   - "§l§§bName Server"
   - "§l§aName Server"
   - "§l§dName Server"
-
+#Status player :)
 line:
   - " Line 1"
   - " Line 2"
@@ -47,7 +47,6 @@ line:
   - " Line 14"
   - " Line 15"
 #End of line 15
-
 #ให้อัพเดตข้อความทุกๆกี่ tick
 #Keep updating every few ticks.
 update-interval: 20
