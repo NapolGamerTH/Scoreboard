@@ -29,7 +29,7 @@ class ScoreboardTask extends Task {
                         $name = $player->getName();
                         $tps = $this->getServer()->getTicksPerSecond();
                         $usage = $this->getServer()->getTickUsage();
-			$online = $online = count(Server::getInstance()->getOnlinePlayers());
+			$online = $online = count($this->plugin->getServer()->getOnlinePlayers());
                         $max_online = $this->getServer()->getMaxPlayers();
                         $fac = $this->plugin->getServer()-getPluginManager()->getPlugin("FactionsPro")->getPlayerFaction($player->getName());
                         $x = round($player->getX(), 0);
