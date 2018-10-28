@@ -4,15 +4,19 @@ declare(strict_types=1);
 namespace Napol\Scoreboard;
 
 use pocketmine\event\player\PlayerQuitEvent;
-use pocketmine\network\mcpe\protocol\RemoveObjectivePacket;
-use pocketmine\network\mcpe\protocol\SetDisplayObjectivePacket;
-use pocketmine\network\mcpe\protocol\SetScorePacket;
-use pocketmine\network\mcpe\protocol\types\ScorePacketEntry;
-use pocketmine\utils\Config;
-use pocketmine\Player;
-use pocketmine\Server;
-use pocketmine\event\Listener;
-use pocketmine\plugin\PluginBase;
+use pocketmine\network\mcpe\protocol\{
+	RemoveObjectivePacket, 
+	SetDisplayObjectivePacket, 
+	SetScorePacket, 
+	types\ScorePacketEntry
+};
+use pocketmine\{
+	Player, 
+	Server, 
+	event\Listener, 
+	plugin\PluginBase, 
+	utils\Config
+};
 
 #Task Scoreboard
 use Napol\Scoreboard\Task\ScoreboardTask;
